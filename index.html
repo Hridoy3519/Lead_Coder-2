@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LeadCoder</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="shortcut icon" href="images/courses/mern.jpg" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">LeadCoder</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tutorials</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Courses
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Web Devwlopment</a></li>
+                <li><a class="dropdown-item" href="#">AWS development</a></li>
+                <li><a class="dropdown-item" href="#">CCNA Crash Course</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Support Us</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/sliders/1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Learn With Us</h5>
+            <p>Best Place to learn Development</p>
+            <button type="button" class="btn btn-danger">Programming</button>
+            <button type="button" class="btn btn-primary">Web Development</button>
+            <button type="button" class="btn btn-success">Workshops</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/sliders/2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Learn With Us</h5>
+            <p>Best Place to learn Development</p>
+            <button type="button" class="btn btn-primary">Programming</button>
+            <button type="button" class="btn btn-danger">Web Development</button>
+            <button type="button" class="btn btn-success">Workshops</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/sliders/3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Learn With Us</h5>
+            <p>Best Place to learn Development</p>
+            <button type="button" class="btn btn-success">Programming</button>
+            <button type="button" class="btn btn-primary">Web Development</button>
+            <button type="button" class="btn btn-danger">Workshops</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container courses">
+      <h3>Online Courses</h3>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col-md-3">
+          <div class="card">
+            <img src="images/courses/mern.jpg" class="card-img-top" alt="..." height="150">
+            <div class="card-body">
+              <h5 class="card-title">MERN Stack</h5>
+              <p class="card-text">MongoDB| Express Js| React Js| Node Js </p>
+            </div>
+            <div class="card-footer">
+              <div class="calendar">
+                <img src="images/icon/calendar.jpg" alt="">
+                <p>Starts 1st July, 2021</p>
+              </div>
+              <div class="seats">
+                <img src="images/icon/people.png" alt="">
+                <p>60 Students</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="images/courses/laravel.jpg" class="card-img-top" alt="..." height="150">
+            <div class="card-body">
+              <h5 class="card-title">PHP-Laravel Stack</h5>
+              <p class="card-text">Laravel| Advanced PHP| MySQL</p>
+            </div>
+            <div class="card-footer">
+              <div class="calendar">
+                <img src="images/icon/calendar.jpg" alt="">
+                <p>Starts 15th July 2021</p>
+              </div>
+              <div class="seats">
+                <img src="images/icon/people.png" alt="">
+                <p>80 Students</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="images/courses/ccna.png" class="card-img-top" alt="..." height="150">
+            <div class="card-body">
+              <h5 class="card-title">CCNA</h5>
+              <p class="card-text">Cisco Certified Network Associate</p>
+            </div>
+            <div class="card-footer">
+              <div class="calendar">
+                <img src="images/icon/calendar.jpg" alt="">
+                <p>Starts 1st August 2021</p>
+              </div>
+              <div class="seats">
+                <img src="images/icon/people.png" alt="">
+                <p>120 Students</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="images/courses/aws.png" class="card-img-top" alt="..." height="150">
+            <div class="card-body">
+              <h5 class="card-title">AWS</h5>
+              <p class="card-text">AWS Certified Solution Architect Associate</p>
+            </div>
+            <div class="card-footer">
+              <div class="calendar">
+                <img src="images/icon/calendar.jpg" alt="">
+                <p>Starts 6th October 2021</p>
+              </div>
+              <div class="seats">
+                <img src="images/icon/people.png" alt="">
+                <p>20 Students</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+    </div>
+  </main>
+
+  <section class="get_in_touch">
+    <h1 class="title">Connect With us </h1>
+
+    <div class="container">
+      <form action="connection.php" method="POST">
+        <div class="contact-form row">
+          <div class="form-field col-lg-6">
+            <input id="fname" class="input-text" type="text" name="fname">
+            <label for="fname" class="label">First name</label>
+          </div>
+
+          <div class="form-field col-lg-6">
+            <input id="lane" class="input-text" type="text" name="lname">
+            <label for="lname" class="label">Last Name</label>
+          </div>
+
+          <div class="form-field col-lg-6">
+            <input id="email" class="input-text" type="email" name="email">
+            <label for="email" class="label">Email</label>
+          </div>
+
+          <div class="form-field col-lg-6">
+            <input class="submit-btn" type="submit" name="">
+          </div>
+      </form>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row down align-items-center">
+        <div class="col-md-4">
+          <p>Millions of people of all ages and from around
+            the world are improving their lives with us</p>
+        </div>
+        <div class="col-md-2">
+          <h5>Course</h5>
+          <h6>Web Development</h6>
+          <h6>Ethical Hacking</h6>
+          <h6>Cloud Development</h6>
+          <h6>Network Engineer</h6>
+          <h6>AWS Architect</h6>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+          <h5>Terms</h5>
+          <h6>Web Development</h6>
+          <h6>Ethical Hacking</h6>
+          <h6>Cloud Development</h6>
+          <h6>Network Engineer</h6>
+          <h6>AWS Architect</h6>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+          <h5>Useful links</h5>
+          <h6>Web Development</h6>
+          <h6>Ethical Hacking</h6>
+          <h6>Cloud Development</h6>
+          <h6>Network Engineer</h6>
+          <h6>AWS Architect</h6>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <small style="color: white">©Copyright 2021, Hridoy Chowdhury, Sylhet .All right reserved</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
