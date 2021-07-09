@@ -9,7 +9,8 @@
     margin-top: 30px;
 }
 
-.courses h3{
+.colored-text{
+    margin: 30px 0;
     font-weight: 900;
     text-align: center;
     color: blue;
@@ -56,6 +57,7 @@
     padding-top: 30px;
     color: #5543ca;
     background: linear-gradient(to right, #f4524d 0%, #5543ca 100%);
+    background-clip: unset;
     -webkit-text-fill-color: transparent ;
     -webkit-background-clip: text;
 }
@@ -104,6 +106,25 @@
     border: none;
     width: 200px;
     cursor: pointer;
+}
+
+
+
+.cou{
+    margin: 40px 0;
+    height: 200px;
+    border: 2px solid #263F92;
+}
+
+.count1, .count2, .count3{
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.milestone p{
+    font-size: 18px;
+    font-weight: 600;
 }
 /* Footer */
 footer{
